@@ -1,6 +1,7 @@
 import pygame as pg
 import math
 
+# TODO реализовать для дробного k_number
 
 class Cardioid:
     def __init__(self, app_, n_lines):
@@ -60,4 +61,3 @@ class App:
 
 app = App(n_lines=200)
 app.run(k=4)
-#нужно улучшить для дробного k_number
